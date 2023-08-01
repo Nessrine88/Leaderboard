@@ -38,8 +38,6 @@
 > The Leaderboard Project is a web application that allows users to view and compare scores on a leaderboard.
 
 
-**[your_project__name]** is a...
-
 ## 🛠 Built With <a name="built-with"></a>
 
 >The project is built using the following technologies and tools:
