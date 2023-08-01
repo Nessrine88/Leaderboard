@@ -1,13 +1,11 @@
-# Leaderboard 🏆
+<h1 align ="center" >  Leaderboard 🏆</h1>
 <a name="readme-top"></a>
 
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <img src="LOGO (2).png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
