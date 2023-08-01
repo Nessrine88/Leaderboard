@@ -1,20 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
 * {
   text-decoration: none;
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #403f3ff1;
   box-sizing: border-box;
 }
+
 .title {
   display: block;
-  
-margin: 2em;
-font-size: 1.5em;
+  font-family: 'adveture', sans-serif;
+  margin: 2.5em;
+  font-size: 1.5em;
 }
 
-.container{
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 50%;
@@ -22,41 +23,58 @@ font-size: 1.5em;
   width: 100%;
 }
 
-.header{
+.header {
   display: flex;
+  margin-left: 4em;
+  font-family: 'adveture', sans-serif;
 }
+
 .addScoreTitle {
   margin-left: 4em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-family: 'adveture', sans-serif;
 }
+
 .addForm {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin-left: 4em;
-
 }
-
 
 .addScore input {
-margin-top: 1em;
-padding: 0.5em;
-
+  margin-top: 1em;
+  padding: 0.5em;
 }
 
-.addScoreBtn{
- width: fit-content;
- margin-left: auto;
- margin-top: 1em;
- padding: 0.5em;
+.addScoreBtn {
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 1em;
+  padding: 0.5em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
-.refreshBtn{
+
+.refreshBtn {
   width: fit-content;
   margin-top: 1em;
- padding: 0.2em;
-margin-left: 1em;
+  padding: 0.2em;
+  margin-left: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
-.header h2 {
-margin-left: 4em;
 
-   
+li {
+  margin-left: 4em;
+  border: solid 1px black;
+  width: 80%;
+  padding: 0.2em;
+}
+
+#displayScores {
+  margin-top: 2em;
+  height: 50%;
+  width: 80%;
 }

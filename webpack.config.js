@@ -24,7 +24,7 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },
-    port: 9000,
+    port: 3000,
   },
   module: {
     rules: [
