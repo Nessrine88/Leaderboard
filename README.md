@@ -82,7 +82,7 @@ In order to run this project you need:
 
 1. Clone the repository to your desired location:
 ```sh
-git clone git@github.com:Nessrine88/Todolist.git
+git clone git@github.com:Nessrine88/Leaderboard.git
 ```
 
 2. Open the project folder in your code editor.
@@ -91,7 +91,7 @@ git clone git@github.com:Nessrine88/Todolist.git
 
 Clone this repository to your desired folder:
 
-Run Dev Server (Port 9000)
+Run Dev Server (Port 3000)
 
 ```
   npm run dev
@@ -102,7 +102,7 @@ Run Dev Server (Port 9000)
 
 To run the project, execute the following command:
 
-Run Dev Server (Port 9000)
+Run Dev Server (Port 3000)
 
 ```
   npm run dev
@@ -154,10 +154,6 @@ You can deploy this project using:
 
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- CONTRIBUTING -->
-🤝 Contributing <a
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
