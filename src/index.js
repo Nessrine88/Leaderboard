@@ -1,5 +1,5 @@
 import './style.css';
-import addListItem from './leaderboard.js';
+import  addListItem  from './leaderboard.js';
 
 const list = JSON.parse(localStorage.getItem('list')) || [];
 const addForm = document.getElementById('addForm');
