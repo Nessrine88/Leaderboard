@@ -1,0 +1,62 @@
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #403f3ff1;
+  box-sizing: border-box;
+}
+.title {
+  display: block;
+  
+margin: 2em;
+font-size: 1.5em;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50%;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+}
+.addScoreTitle {
+  margin-left: 4em;
+}
+.addForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 4em;
+
+}
+
+
+.addScore input {
+margin-top: 1em;
+padding: 0.5em;
+
+}
+
+.addScoreBtn{
+ width: fit-content;
+ margin-left: auto;
+ margin-top: 1em;
+ padding: 0.5em;
+}
+.refreshBtn{
+  width: fit-content;
+  margin-top: 1em;
+ padding: 0.2em;
+margin-left: 1em;
+}
+.header h2 {
+margin-left: 4em;
+
+   
+}
