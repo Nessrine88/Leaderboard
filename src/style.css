@@ -75,7 +75,8 @@ li {
 
 #displayScores {
   margin-top: 2em;
-  height: 50%;
+  height: 50vh;
+  overflow-y: auto;
 }
 
 ul li:nth-child(odd) {
