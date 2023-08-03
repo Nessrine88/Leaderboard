@@ -112,10 +112,10 @@ refreshBtn.addEventListener('click', () => {
 
         if (index % 2 === 0) {
           const li = ul.children[index];
-          li.style.backgroundColor = 'white';
+          li.style.backgroundColor = '#fff';
         } else {
           const li = ul.children[index];
-          li.style.backgroundColor = 'lightgray';
+          li.style.backgroundColor = '#f9f5f8';
         }
       });
     })
