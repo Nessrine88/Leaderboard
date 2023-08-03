@@ -95,6 +95,7 @@ addForm.addEventListener('submit', (e) => {
   })
     .then((response) => response.json())
     .then(() => {
+      // Removed console.log here
     });
 });
 
@@ -104,7 +105,7 @@ refreshBtn.addEventListener('click', () => {
     .then((data) => {
       const scores = data.result;
       const ul = document.querySelector('ul');
-      ul.innerHTML = ''; 
+      ul.innerHTML = '';
       scores.forEach((user, index) => {
         const markup = `<li>${user.user} : ${user.score}</li>`;
         ul.insertAdjacentHTML('beforeend', markup);
@@ -112,11 +113,9 @@ refreshBtn.addEventListener('click', () => {
         if (index % 2 === 0) {
           const li = ul.children[index];
           li.style.backgroundColor = 'white';
-        
         } else {
           const li = ul.children[index];
           li.style.backgroundColor = 'lightgray';
-        
         }
       });
     })
