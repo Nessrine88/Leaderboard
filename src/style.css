@@ -5,7 +5,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .title {
@@ -27,6 +26,7 @@
   display: flex;
   margin-left: 4em;
   font-family: 'adveture', sans-serif;
+  width: fit-content;
 }
 
 .addScoreTitle {
@@ -76,5 +76,12 @@ li {
 #displayScores {
   margin-top: 2em;
   height: 50%;
-  width: 80%;
+}
+
+ul li:nth-child(odd) {
+  background-color: white;
+}
+
+ul li:nth-child(even) {
+  background-color: lightgray;
 }
